@@ -35,13 +35,18 @@ else {
 console.log("La lámpara no funciona");
 let plugged=false;
 let burnedOut=true;
+
 if (!plugged){
 console.log("Conectala");
-}
-if(!plugged && burnedOut ){
+if (!plugged && burnedOut ){
 console.log("Reemplaza el foco");}
+}
+
 if(!burnedOut || !plugged){
     console.log("Compra lámpara nueva");
 }
+
+
+
 
 
